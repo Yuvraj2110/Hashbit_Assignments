@@ -1,0 +1,38 @@
+.home {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutMovie {
+  padding: 15px;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.aboutmovie-poster {
+  min-width: "300px";
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+.aboutmovie-details {
+  margin-left: 5%;
+  width: 50%;
+  min-width: "300px";
+}
+.bookingform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bookingform >div> label{
+    font-weight: bold;
+}

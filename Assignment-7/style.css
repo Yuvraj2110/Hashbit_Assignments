@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table {
+    font-size: larger;
+    border: 2px solid black;
+}
+body{
+    display: flex;
+    min-width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
